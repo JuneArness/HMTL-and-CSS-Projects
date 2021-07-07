@@ -179,7 +179,7 @@
        padding: 10px;
    }
 
-   ,head-sub-main {
+   .head-sub-main {
        font-size: 23px ;
        font-weight: 500;
        padding: 50px 20px 10px 20px;
@@ -232,7 +232,7 @@
         word-spacing: 0pt
     }
 
-    ,reservation h2 span {
+    .reservation h2 span {
         width: 70;
         text-align: center;
         margin: 0 auto;
@@ -299,7 +299,7 @@
         text-align: center;
         font-family: 'Raleway', sans-serif;
         margin: 0px 3%;
-        padding: 7px 0px;(
+        padding: 7px 0px;
         width: 25%;
         font-size: 18px;
         transition: border-color 0.3s color 0.3s background-color 0.3s;
@@ -328,7 +328,15 @@
         border-radius: 7px;
         background-color: #797a7b;
         box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+
     }
+
+    .submit input [type="submit"]:hover {
+        color: #000;
+        background-color: #8D8E8F;
+        box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
+    }
+    
     /*---------------------------------------------------------------------------------------
       FOOTER STYLES
     =======================================================================================*/
@@ -346,20 +354,20 @@
     ======================================================================================*/
 
     @media all and (max-width:640px) and (min-width:381px) {
-        ,head-main {
+        .head-main {
             font-size:28px ;
         }
     }
 
-    @media all and (max-width:381px) and (min-width:200px} {
+    @media all and (max-width:381px) and (min-width:200px) {
         .head-main {
             font-size: 24px;
         }
     }
 
 
-    2media (min-width: 768px) {
-        ,container {
+    @media (min-width: 768px) {
+        .container {
             width: 750px;
         }
     }
