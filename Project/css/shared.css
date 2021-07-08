@@ -105,6 +105,8 @@
  .container-fluid {
      padding-right: -15px;
      margin-left: -15px;
+     margin-right: auto;
+     margin-left: auto;
  }
 
  .row {
@@ -172,7 +174,7 @@
        color: #fff;
        letter-spacing: 5pt;
        word-spacing: 21pt;
-       font-size: 4,5em;
+       font-size: 4.5em;
        text-align: left;
        font-family: impact, sans-serif;
        line-height: 2;
@@ -290,24 +292,24 @@
     }
 
     .form-spacer {
-        padding: 30px;
+        padding: 30px 39px;
     }
 
     .terms {
         margin: 30px 1px 0 0 ;
         padding-left: 52px;
-        font-weight: 900;
-        outline: none;
-        text-align: center;
+        font-size: 14px;
+        line-height: 5px;
+        color: #000;
+        cursor: pointer;
         font-family: 'Raleway', sans-serif;
-        margin: 0px 3%;
-        padding: 7px 0px;
-        width: 25%;
-        font-size: 18px;
-        transition: border-color 0.3s color 0.3s background-color 0.3s;
-        border-radius: #797a7b;
-        box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
+        font-weight: 600;
+        position: relative;
+        display: inline;
+        float: right;
     }
+
+   
 
     .terms:hover {
         color: orange;
@@ -357,7 +359,7 @@
 
     @media all and (max-width:640px) and (min-width:381px) {
         .head-main {
-            font-size:28px ;
+            font-size: 28px ;
         }
     }
 
@@ -378,4 +380,10 @@
         .container {
             width: 970px;
         }
+
+    @media (min-width: 1200px) {
+        .container {
+            width: 1170px
+        }
+    }
     }
