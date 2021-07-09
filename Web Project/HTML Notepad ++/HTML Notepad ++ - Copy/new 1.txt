@@ -1,5 +1,0 @@
-HTML
-<html> 
-title('Class Work') 
-print (' Hello World')
-<html>
