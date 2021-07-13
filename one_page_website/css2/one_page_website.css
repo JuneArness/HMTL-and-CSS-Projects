@@ -1,9 +1,9 @@
-.style {
+.rsvp {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 10px; 
-    width: 12px; 
+    width: 100px; 
     margin:auto ;
-    border: gold;
-    border: radius 5px; ;
+    border-color: gold;
+    border-radius: 5px; 
 
 }
